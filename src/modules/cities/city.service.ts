@@ -1,6 +1,6 @@
-import { MongooseRepository } from "@/utils/crud.util";
+import { MongooseRepository } from "../../utils/crud.util";
 import { CityModel, ICity } from "./city.model";
-import { AppError } from "@/utils/app-error.util";
+import { AppError } from "../../utils/app-error.util";
 import { CreateCityDto, UpdateCityDto } from "./city.dto";
 
 export class CityService {

@@ -1,12 +1,12 @@
 import { Router } from "express";
 import { TransferController } from "./transfer.controller";
-import { protect, restrictTo } from "@/middlewares/auth.middleware";
-import { UserRole } from "@/modules/user/user.entity";
+import { protect, restrictTo } from "../../middlewares/auth.middleware";
+import { UserRole } from "../user/user.entity";
 import {
   createTransferValidator,
   updateTransferValidator,
 } from "./transfer.validator";
-import { validateRequest } from "@/middlewares/validate-request.middleware";
+import { validateRequest } from "../../middlewares/validate-request.middleware";
 
 const controller = new TransferController();
 const router = Router();

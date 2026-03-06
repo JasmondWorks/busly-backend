@@ -1,7 +1,7 @@
 import { Request, Response, NextFunction } from "express";
 import { SpeedService } from "./speed.service";
 import { SpeedLogModel } from "./speed.model";
-import { ApiResponse } from "@/utils/api-response.util";
+import { ApiResponse } from "../../utils/api-response.util";
 
 export class SpeedController {
   private speedService: SpeedService;

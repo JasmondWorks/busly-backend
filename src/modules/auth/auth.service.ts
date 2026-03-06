@@ -1,12 +1,12 @@
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
-import { MongooseRepository } from "@/utils/crud.util";
-import { UserModel, IUser } from "@/modules/user/user.model";
-import { CreateUserDto } from "@/modules/user/user.dto";
-import { LoginDto } from "@/modules/auth/auth.dto";
-import { AppError } from "@/utils/app-error.util";
-import config from "@/config/app.config";
-import { EmailService } from "@/utils/email.util";
+import { MongooseRepository } from "../../utils/crud.util";
+import { UserModel, IUser } from "../user/user.model";
+import { CreateUserDto } from "../user/user.dto";
+import { LoginDto } from "./auth.dto";
+import { AppError } from "../../utils/app-error.util";
+import config from "../../config/app.config";
+import { EmailService } from "../../utils/email.util";
 
 export class AuthService {
   private repo: MongooseRepository<IUser>;

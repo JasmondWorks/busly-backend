@@ -1,8 +1,8 @@
 import { Request, Response, NextFunction } from "express";
 import { TripService } from "./trip.service";
 import { TripModel, TripStatus } from "./trip.model";
-import { ApiResponse } from "@/utils/api-response.util";
-import { AppError } from "@/utils/app-error.util";
+import { ApiResponse } from "../../utils/api-response.util";
+import { AppError } from "../../utils/app-error.util";
 
 export class TripController {
   private tripService: TripService;

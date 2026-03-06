@@ -1,16 +1,16 @@
 import { Router } from "express";
-import authRoutes from "@/modules/auth/auth.route";
-import userRoutes from "@/modules/user/user.route";
-import stopRoutes from "@/modules/stops/stop.route";
-import routeRoutes from "@/modules/routes/route.route";
-import journeyRoutes from "@/modules/journeys/journey.route";
-import landmarkRoutes from "@/modules/landmarks/landmark.route";
-import contributionRoutes from "@/modules/contributions/contribution.route";
-import tripRoutes from "@/modules/trips/trip.route";
-import driverRoutes from "@/modules/drivers/driver.route";
-import speedRoutes from "@/modules/speed/speed.route";
-import transferRoutes from "@/modules/transfers/transfer.route";
-import cityRoutes from "@/modules/cities/city.route";
+import authRoutes from "../modules/auth/auth.route";
+import userRoutes from "../modules/user/user.route";
+import stopRoutes from "../modules/stops/stop.route";
+import routeRoutes from "../modules/routes/route.route";
+import journeyRoutes from "../modules/journeys/journey.route";
+import landmarkRoutes from "../modules/landmarks/landmark.route";
+import contributionRoutes from "../modules/contributions/contribution.route";
+import tripRoutes from "../modules/trips/trip.route";
+import driverRoutes from "../modules/drivers/driver.route";
+import speedRoutes from "../modules/speed/speed.route";
+import transferRoutes from "../modules/transfers/transfer.route";
+import cityRoutes from "../modules/cities/city.route";
 
 const router = Router();
 

@@ -1,4 +1,4 @@
-import { MongooseRepository } from "@/utils/crud.util";
+import { MongooseRepository } from "../../utils/crud.util";
 import { SpeedLogModel, ISpeedLog } from "./speed.model";
 
 export class SpeedService {

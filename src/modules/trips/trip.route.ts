@@ -1,8 +1,8 @@
 import { Router } from "express";
 import { TripController } from "./trip.controller";
-import { protect } from "@/middlewares/auth.middleware";
+import { protect } from "../../middlewares/auth.middleware";
 import { body } from "express-validator";
-import { validateRequest } from "@/middlewares/validate-request.middleware";
+import { validateRequest } from "../../middlewares/validate-request.middleware";
 
 const router = Router();
 const controller = new TripController();

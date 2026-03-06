@@ -1,6 +1,6 @@
 import { Router } from "express";
 import { JourneyController } from "./journey.controller";
-import { validateRequest } from "@/middlewares/validate-request.middleware";
+import { validateRequest } from "../../middlewares/validate-request.middleware";
 import { query } from "express-validator";
 
 const controller = new JourneyController();

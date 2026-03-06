@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from "express";
 import { StopService } from "./stop.service";
-import { ApiResponse } from "@/utils/api-response.util";
+import { ApiResponse } from "../../utils/api-response.util";
 
 export class StopController {
   private stopService: StopService;

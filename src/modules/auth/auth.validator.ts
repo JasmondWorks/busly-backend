@@ -1,5 +1,5 @@
 import { body } from "express-validator";
-import { userRoles } from "@/modules/user/user.entity";
+import { userRoles } from "../user/user.entity";
 
 export const registerValidator = [
   body("name").notEmpty().withMessage("Name is required"),

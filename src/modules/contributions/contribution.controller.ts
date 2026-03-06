@@ -1,8 +1,8 @@
 import { Request, Response, NextFunction } from "express";
 import { ContributionService } from "./contribution.service";
 import { ContributionStatus, ContributionType, VoteType } from "./contribution.model";
-import { ApiResponse } from "@/utils/api-response.util";
-import { AppError } from "@/utils/app-error.util";
+import { ApiResponse } from "../../utils/api-response.util";
+import { AppError } from "../../utils/app-error.util";
 
 export class ContributionController {
   private service: ContributionService;
