@@ -1,6 +1,6 @@
-import { MongooseRepository } from "@/utils/crud.util";
+import { MongooseRepository } from "../../utils/crud.util";
 import { TripModel, ITrip, TripStatus } from "./trip.model";
-import { AppError } from "@/utils/app-error.util";
+import { AppError } from "../../utils/app-error.util";
 import { RouteModel } from "../routes/route.model";
 
 export class TripService {

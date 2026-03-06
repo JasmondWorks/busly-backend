@@ -1,13 +1,13 @@
 import { Router } from "express";
 import { LandmarkController } from "./landmark.controller";
-import { protect, restrictTo } from "@/middlewares/auth.middleware";
-import { UserRole } from "@/modules/user/user.entity";
+import { protect, restrictTo } from "../../middlewares/auth.middleware";
+import { UserRole } from "../user/user.entity";
 import {
   createLandmarkValidator,
   updateLandmarkValidator,
   nearbyLandmarksValidator,
 } from "./landmark.validator";
-import { validateRequest } from "@/middlewares/validate-request.middleware";
+import { validateRequest } from "../../middlewares/validate-request.middleware";
 
 const controller = new LandmarkController();
 const router = Router();

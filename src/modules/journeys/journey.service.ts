@@ -6,7 +6,7 @@ import { RouteModel } from "../routes/route.model";
 import { StopModel } from "../stops/stop.model";
 import { RoutingGraphService, GraphNode } from "./utils/graph-builder";
 import { AStarRouting } from "./utils/a-star-routing";
-import { AppError } from "@/utils/app-error.util";
+import { AppError } from "../../utils/app-error.util";
 
 interface StopDetail {
   id: string;

@@ -1,6 +1,6 @@
-import { MongooseRepository } from "@/utils/crud.util";
+import { MongooseRepository } from "../../utils/crud.util";
 import { DriverProfileModel, IDriverProfile } from "./driver.model";
-import { AppError } from "@/utils/app-error.util";
+import { AppError } from "../../utils/app-error.util";
 
 export class DriverService {
   private repo: MongooseRepository<IDriverProfile>;

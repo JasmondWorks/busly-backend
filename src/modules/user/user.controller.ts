@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from "express";
-import { UserService } from "@/modules/user/user.service";
-import { ApiResponse } from "@/utils/api-response.util";
+import { UserService } from "./user.service";
+import { ApiResponse } from "../../utils/api-response.util";
 
 export class UserController {
   private userService: UserService;

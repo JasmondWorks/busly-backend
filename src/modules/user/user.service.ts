@@ -1,6 +1,6 @@
-import { MongooseRepository } from "@/utils/crud.util";
-import { UserModel, IUser } from "@/modules/user/user.model";
-import { AppError } from "@/utils/app-error.util";
+import { MongooseRepository } from "../../utils/crud.util";
+import { UserModel, IUser } from "./user.model";
+import { AppError } from "../../utils/app-error.util";
 
 export class UserService {
   private repo: MongooseRepository<IUser>;

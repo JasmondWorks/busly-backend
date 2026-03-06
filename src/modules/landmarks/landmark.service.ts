@@ -1,6 +1,6 @@
-import { MongooseRepository } from "@/utils/crud.util";
+import { MongooseRepository } from "../../utils/crud.util";
 import { LandmarkModel, ILandmark } from "./landmark.model";
-import { AppError } from "@/utils/app-error.util";
+import { AppError } from "../../utils/app-error.util";
 import { CreateLandmarkDto, UpdateLandmarkDto } from "./landmark.dto";
 
 export class LandmarkService {

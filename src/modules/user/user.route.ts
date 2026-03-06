@@ -1,8 +1,8 @@
 import express from "express";
-import { UserController } from "@/modules/user/user.controller";
-import { protect, restrictTo } from "@/middlewares/auth.middleware";
-import { validateRequest } from "@/middlewares/validate-request.middleware";
-import { getUserValidator } from "@/modules/user/user.validator";
+import { UserController } from "./user.controller";
+import { protect, restrictTo } from "../../middlewares/auth.middleware";
+import { validateRequest } from "../../middlewares/validate-request.middleware";
+import { getUserValidator } from "./user.validator";
 
 const router = express.Router();
 const userController = new UserController();

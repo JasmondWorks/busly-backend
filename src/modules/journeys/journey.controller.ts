@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from "express";
 import { JourneyService } from "./journey.service";
-import { ApiResponse } from "@/utils/api-response.util";
+import { ApiResponse } from "../../utils/api-response.util";
 
 export class JourneyController {
   private journeyService: JourneyService;

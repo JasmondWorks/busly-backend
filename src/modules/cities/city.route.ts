@@ -1,9 +1,9 @@
 import { Router } from "express";
 import { CityController } from "./city.controller";
-import { protect, restrictTo } from "@/middlewares/auth.middleware";
-import { UserRole } from "@/modules/user/user.entity";
+import { protect, restrictTo } from "../../middlewares/auth.middleware";
+import { UserRole } from "../user/user.entity";
 import { createCityValidator, updateCityValidator } from "./city.validator";
-import { validateRequest } from "@/middlewares/validate-request.middleware";
+import { validateRequest } from "../../middlewares/validate-request.middleware";
 
 const controller = new CityController();
 const router = Router();

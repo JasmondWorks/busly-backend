@@ -2,8 +2,8 @@ import { Request, Response, NextFunction } from "express";
 import mongoose from "mongoose";
 import { DriverService } from "./driver.service";
 import { DriverProfileModel } from "./driver.model";
-import { ApiResponse } from "@/utils/api-response.util";
-import { AppError } from "@/utils/app-error.util";
+import { ApiResponse } from "../../utils/api-response.util";
+import { AppError } from "../../utils/app-error.util";
 
 export class DriverController {
   private driverService: DriverService;

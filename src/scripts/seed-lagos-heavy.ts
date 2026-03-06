@@ -31,20 +31,20 @@ import through from "through2";
 // @ts-ignore — no @types for osm-pbf-parser
 import createParser from "osm-pbf-parser";
 
-import { StopModel } from "@/modules/stops/stop.model";
-import { RouteModel, RouteType } from "@/modules/routes/route.model";
-import { LandmarkModel, LandmarkCategory } from "@/modules/landmarks/landmark.model";
-import { TransferModel } from "@/modules/transfers/transfer.model";
-import { UserModel, UserRole } from "@/modules/user/user.model";
-import { DriverProfileModel } from "@/modules/drivers/driver.model";
-import { CityModel } from "@/modules/cities/city.model";
+import { StopModel } from "../modules/stops/stop.model";
+import { RouteModel, RouteType } from "../modules/routes/route.model";
+import { LandmarkModel, LandmarkCategory } from "../modules/landmarks/landmark.model";
+import { TransferModel } from "../modules/transfers/transfer.model";
+import { UserModel, UserRole } from "../modules/user/user.model";
+import { DriverProfileModel } from "../modules/drivers/driver.model";
+import { CityModel } from "../modules/cities/city.model";
 import {
   ContributionModel,
   ContributionType,
   ContributionStatus,
   VoteType,
-} from "@/modules/contributions/contribution.model";
-import config from "@/config/app.config";
+} from "../modules/contributions/contribution.model";
+import config from "../config/app.config";
 
 // ─── TYPES ───────────────────────────────────────────────────────────────────
 

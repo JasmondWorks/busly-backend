@@ -7,14 +7,14 @@
 import "dotenv/config";
 import mongoose from "mongoose";
 import bcrypt from "bcryptjs";
-import { StopModel } from "@/modules/stops/stop.model";
-import { RouteModel, RouteType } from "@/modules/routes/route.model";
-import { LandmarkModel, LandmarkCategory } from "@/modules/landmarks/landmark.model";
-import { TransferModel } from "@/modules/transfers/transfer.model";
-import { UserModel, UserRole } from "@/modules/user/user.model";
-import { DriverProfileModel } from "@/modules/drivers/driver.model";
-import { CityModel } from "@/modules/cities/city.model";
-import config from "@/config/app.config";
+import { StopModel } from "../modules/stops/stop.model";
+import { RouteModel, RouteType } from "../modules/routes/route.model";
+import { LandmarkModel, LandmarkCategory } from "../modules/landmarks/landmark.model";
+import { TransferModel } from "../modules/transfers/transfer.model";
+import { UserModel, UserRole } from "../modules/user/user.model";
+import { DriverProfileModel } from "../modules/drivers/driver.model";
+import { CityModel } from "../modules/cities/city.model";
+import config from "../config/app.config";
 
 // ─── HELPER ──────────────────────────────────────────────────────────────────
 

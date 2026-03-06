@@ -1,4 +1,4 @@
-import { UserRole } from "@/modules/user/user.entity";
+import { UserRole } from "./user.entity";
 
 export class CreateUserDto {
   name!: string;

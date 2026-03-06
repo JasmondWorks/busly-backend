@@ -1,5 +1,5 @@
 import nodemailer from "nodemailer";
-import config from "@/config/app.config";
+import config from "../config/app.config";
 
 export class EmailService {
   private transporter: nodemailer.Transporter;

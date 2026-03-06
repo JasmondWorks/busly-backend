@@ -1,6 +1,6 @@
-import { MongooseRepository } from "@/utils/crud.util";
+import { MongooseRepository } from "../../utils/crud.util";
 import { TransferModel, ITransfer } from "./transfer.model";
-import { AppError } from "@/utils/app-error.util";
+import { AppError } from "../../utils/app-error.util";
 import { CreateTransferDto, UpdateTransferDto } from "./transfer.dto";
 
 export class TransferService {

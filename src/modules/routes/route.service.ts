@@ -1,6 +1,6 @@
-import { MongooseRepository } from "@/utils/crud.util";
+import { MongooseRepository } from "../../utils/crud.util";
 import { RouteModel, IRoute } from "./route.model";
-import { AppError } from "@/utils/app-error.util";
+import { AppError } from "../../utils/app-error.util";
 import mongoose from "mongoose";
 
 export class RouteService {

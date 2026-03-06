@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from "express";
 import { RouteService } from "./route.service";
-import { ApiResponse } from "@/utils/api-response.util";
+import { ApiResponse } from "../../utils/api-response.util";
 
 export class RouteController {
   private routeService: RouteService;

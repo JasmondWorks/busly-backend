@@ -1,4 +1,4 @@
-import { MongooseRepository } from "@/utils/crud.util";
+import { MongooseRepository } from "../../utils/crud.util";
 import {
   ContributionModel,
   IContribution,
@@ -10,7 +10,7 @@ import { StopModel } from "../stops/stop.model";
 import { LandmarkModel } from "../landmarks/landmark.model";
 import { RouteModel } from "../routes/route.model";
 import { UserModel } from "../user/user.model";
-import { AppError } from "@/utils/app-error.util";
+import { AppError } from "../../utils/app-error.util";
 import mongoose from "mongoose";
 
 const VOTE_THRESHOLD = 3; // Auto-flag for review once this many upvotes are reached
